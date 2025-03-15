@@ -1,1 +1,2 @@
 C:\Users\danie\OneDrive\Documents\CW2\CPPCoursework2021-v102\Release\CourseworkBase2020.exe
+C:\Users\danie\OneDrive\Documents\CW2\2DScrollingGame\Release\CourseworkBase2020.exe
