@@ -1,6 +1,6 @@
  CourseworkBase2020
 
- Timestamp is 64e76c93 (Thu Aug 24 15:43:31 2023)
+ Timestamp is 67d5c009 (Sat Mar 15 17:59:37 2025)
 
  Preferred load address is 00400000
 
@@ -26,13 +26,13 @@
  0002:0000cf80 0000014cH .rdata$CastGuardVftablesC DATA
  0002:0000d0cc 000016e8H .rdata$r                DATA
  0002:0000e7b4 0000040cH .rdata$sxdata           DATA
- 0002:0000ebc0 000001a4H .rdata$zzzdbg           DATA
- 0002:0000ed64 00000104H .rtc$IAA                DATA
- 0002:0000ee68 00000104H .rtc$IZZ                DATA
- 0002:0000ef6c 00000104H .rtc$TAA                DATA
- 0002:0000f070 00000108H .rtc$TZZ                DATA
- 0002:0000f178 0000277fH .xdata$x                DATA
- 0002:000118f7 00000000H .edata                  DATA
+ 0002:0000ebc0 0000019cH .rdata$zzzdbg           DATA
+ 0002:0000ed5c 00000104H .rtc$IAA                DATA
+ 0002:0000ee60 00000104H .rtc$IZZ                DATA
+ 0002:0000ef64 00000104H .rtc$TAA                DATA
+ 0002:0000f068 00000108H .rtc$TZZ                DATA
+ 0002:0000f170 0000277fH .xdata$x                DATA
+ 0002:000118ef 00000000H .edata                  DATA
  0003:00000000 00000130H .data                   DATA
  0003:00000130 000001f4H .data$r                 DATA
  0003:00000324 00000904H .data$rs                DATA
@@ -2307,20 +2307,20 @@
  0002:0000e5f8       ??_R2type_info@@8          004505f8     MSVCRTD:std_type_info_static.obj
  0002:0000e600       ??_R1A@?0A@EA@type_info@@8 00450600     MSVCRTD:std_type_info_static.obj
  0002:0000e7b4       ___safe_se_handler_table   004507b4     <linker-defined>
- 0002:0000ed64       ___rtc_iaa                 00450d64     MSVCRTD:initsect.obj
- 0002:0000ee68       ___rtc_izz                 00450e68     MSVCRTD:initsect.obj
- 0002:0000ef6c       ___rtc_taa                 00450f6c     MSVCRTD:initsect.obj
- 0002:0000f070       ___rtc_tzz                 00451070     MSVCRTD:initsect.obj
- 0002:0000f8cc       __TI3?AVbad_array_new_length@std@@ 004518cc     Arrow.obj
- 0002:0000f8e0       __CTA3?AVbad_array_new_length@std@@ 004518e0     Arrow.obj
- 0002:0000f8f4       __CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12 004518f4     Arrow.obj
- 0002:0000f914       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 00451914     Arrow.obj
- 0002:0000f934       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 00451934     Arrow.obj
- 0002:000108d0       __TI2?AVbad_cast@std@@     004528d0     Psydp3Engine.obj
- 0002:000108e4       __CTA2?AVbad_cast@std@@    004528e4     Psydp3Engine.obj
- 0002:000108f4       __CT??_R0?AVbad_cast@std@@@8??0bad_cast@std@@QAE@ABV01@@Z12 004528f4     Psydp3Engine.obj
- 0002:00011448       __TI2?AVbad_alloc@std@@    00453448     MSVCRTD:throw_bad_alloc.obj
- 0002:0001145c       __CTA2?AVbad_alloc@std@@   0045345c     MSVCRTD:throw_bad_alloc.obj
+ 0002:0000ed5c       ___rtc_iaa                 00450d5c     MSVCRTD:initsect.obj
+ 0002:0000ee60       ___rtc_izz                 00450e60     MSVCRTD:initsect.obj
+ 0002:0000ef64       ___rtc_taa                 00450f64     MSVCRTD:initsect.obj
+ 0002:0000f068       ___rtc_tzz                 00451068     MSVCRTD:initsect.obj
+ 0002:0000f8c4       __TI3?AVbad_array_new_length@std@@ 004518c4     Arrow.obj
+ 0002:0000f8d8       __CTA3?AVbad_array_new_length@std@@ 004518d8     Arrow.obj
+ 0002:0000f8ec       __CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12 004518ec     Arrow.obj
+ 0002:0000f90c       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 0045190c     Arrow.obj
+ 0002:0000f92c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0045192c     Arrow.obj
+ 0002:000108c8       __TI2?AVbad_cast@std@@     004528c8     Psydp3Engine.obj
+ 0002:000108dc       __CTA2?AVbad_cast@std@@    004528dc     Psydp3Engine.obj
+ 0002:000108ec       __CT??_R0?AVbad_cast@std@@@8??0bad_cast@std@@QAE@ABV01@@Z12 004528ec     Psydp3Engine.obj
+ 0002:00011440       __TI2?AVbad_alloc@std@@    00453440     MSVCRTD:throw_bad_alloc.obj
+ 0002:00011454       __CTA2?AVbad_alloc@std@@   00453454     MSVCRTD:throw_bad_alloc.obj
  0003:00000008       ___security_cookie         00454008     MSVCRTD:gs_cookie.obj
  0003:0000000c       ___security_cookie_complement 0045400c     MSVCRTD:gs_cookie.obj
  0003:00000014       __fltused                  00454014     MSVCRTD:fltused.obj
@@ -5386,21 +5386,21 @@
  0001:0001e5ac       $LN10                      0041f5ac     LoseState.obj
  0001:0001ebd0       _time                      0041fbd0 f   mainfunction.obj
  0001:00020250       $LN46                      00421250     BaseEngine.obj
- 0001:000206d0       ??R<lambda_57ee486f2f872818e4e1ef76732269ef>@@QBE@PAVDisplayableObject@@@Z 004216d0 f   BaseEngine.obj
- 0001:00020700       ??0<lambda_57ee486f2f872818e4e1ef76732269ef>@@QAE@ABQATSDL_Event@@@Z 00421700 f   BaseEngine.obj
- 0001:00020720       ??R<lambda_83eb8fcb36b73c451092a4848be40800>@@QBE@PAVDisplayableObject@@@Z 00421720 f   BaseEngine.obj
- 0001:00020750       ??0<lambda_83eb8fcb36b73c451092a4848be40800>@@QAE@ABQATSDL_Event@@@Z 00421750 f   BaseEngine.obj
- 0001:00020770       ??R<lambda_b68d6ab0d55fd1970844512a3930ef49>@@QBE@PAVDisplayableObject@@@Z 00421770 f   BaseEngine.obj
- 0001:000207b0       ??0<lambda_b68d6ab0d55fd1970844512a3930ef49>@@QAE@QAVBaseEngine@@@Z 004217b0 f   BaseEngine.obj
- 0001:000207d0       ??R<lambda_9a6d32bae543137263d1d545e39fdd7d>@@QBE@PAVDisplayableObject@@@Z 004217d0 f   BaseEngine.obj
- 0001:00020810       ??0<lambda_9a6d32bae543137263d1d545e39fdd7d>@@QAE@ABQATSDL_Event@@QAVBaseEngine@@@Z 00421810 f   BaseEngine.obj
- 0001:00020840       ??R<lambda_aaa801efaf28ef4796b623796d655d59>@@QBE@PAVDisplayableObject@@@Z 00421840 f   BaseEngine.obj
- 0001:00020880       ??0<lambda_aaa801efaf28ef4796b623796d655d59>@@QAE@ABQATSDL_Event@@QAVBaseEngine@@@Z 00421880 f   BaseEngine.obj
- 0001:00021010       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00422010 f   BaseEngine.obj
- 0001:000210f0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004220f0 f   BaseEngine.obj
- 0001:000211d0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004221d0 f   BaseEngine.obj
- 0001:000212c0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004222c0 f   BaseEngine.obj
- 0001:000213b0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004223b0 f   BaseEngine.obj
+ 0001:000206d0       ??R<lambda_b152b3370034970c6812b79c46dd6f71>@@QBE@PAVDisplayableObject@@@Z 004216d0 f   BaseEngine.obj
+ 0001:00020700       ??0<lambda_b152b3370034970c6812b79c46dd6f71>@@QAE@ABQATSDL_Event@@@Z 00421700 f   BaseEngine.obj
+ 0001:00020720       ??R<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@QBE@PAVDisplayableObject@@@Z 00421720 f   BaseEngine.obj
+ 0001:00020750       ??0<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@QAE@ABQATSDL_Event@@@Z 00421750 f   BaseEngine.obj
+ 0001:00020770       ??R<lambda_5845519189556a8c98af8cd93bce5d68>@@QBE@PAVDisplayableObject@@@Z 00421770 f   BaseEngine.obj
+ 0001:000207b0       ??0<lambda_5845519189556a8c98af8cd93bce5d68>@@QAE@QAVBaseEngine@@@Z 004217b0 f   BaseEngine.obj
+ 0001:000207d0       ??R<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@QBE@PAVDisplayableObject@@@Z 004217d0 f   BaseEngine.obj
+ 0001:00020810       ??0<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@QAE@ABQATSDL_Event@@QAVBaseEngine@@@Z 00421810 f   BaseEngine.obj
+ 0001:00020840       ??R<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@QBE@PAVDisplayableObject@@@Z 00421840 f   BaseEngine.obj
+ 0001:00020880       ??0<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@QAE@ABQATSDL_Event@@QAVBaseEngine@@@Z 00421880 f   BaseEngine.obj
+ 0001:00021010       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00422010 f   BaseEngine.obj
+ 0001:000210f0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004220f0 f   BaseEngine.obj
+ 0001:000211e0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004221e0 f   BaseEngine.obj
+ 0001:000212c0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004222c0 f   BaseEngine.obj
+ 0001:000213b0       ??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004223b0 f   BaseEngine.obj
  0001:000221e0       $LN53                      004231e0     BaseEngine.obj
  0001:000221fc       $LN52                      004231fc     BaseEngine.obj
  0001:00022274       $LN55                      00423274     BaseEngine.obj
@@ -5687,21 +5687,21 @@
  0001:0003d680       __unwindfunclet$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z$0 0043e680 f   BaseEngine.obj
  0001:0003d688       __unwindfunclet$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z$1 0043e688 f   BaseEngine.obj
  0001:0003d695       __ehhandler$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z 0043e695 f   BaseEngine.obj
- 0001:0003d6c0       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e6c0 f   BaseEngine.obj
- 0001:0003d6c8       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e6c8 f   BaseEngine.obj
- 0001:0003d6d5       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e6d5 f   BaseEngine.obj
- 0001:0003d700       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e700 f   BaseEngine.obj
- 0001:0003d708       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e708 f   BaseEngine.obj
- 0001:0003d715       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e715 f   BaseEngine.obj
- 0001:0003d740       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e740 f   BaseEngine.obj
- 0001:0003d748       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e748 f   BaseEngine.obj
- 0001:0003d755       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e755 f   BaseEngine.obj
- 0001:0003d780       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e780 f   BaseEngine.obj
- 0001:0003d788       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e788 f   BaseEngine.obj
- 0001:0003d795       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e795 f   BaseEngine.obj
- 0001:0003d7c0       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e7c0 f   BaseEngine.obj
- 0001:0003d7c8       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e7c8 f   BaseEngine.obj
- 0001:0003d7d5       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e7d5 f   BaseEngine.obj
+ 0001:0003d6c0       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e6c0 f   BaseEngine.obj
+ 0001:0003d6c8       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e6c8 f   BaseEngine.obj
+ 0001:0003d6d5       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e6d5 f   BaseEngine.obj
+ 0001:0003d700       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e700 f   BaseEngine.obj
+ 0001:0003d708       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e708 f   BaseEngine.obj
+ 0001:0003d715       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e715 f   BaseEngine.obj
+ 0001:0003d740       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e740 f   BaseEngine.obj
+ 0001:0003d748       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e748 f   BaseEngine.obj
+ 0001:0003d755       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e755 f   BaseEngine.obj
+ 0001:0003d780       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e780 f   BaseEngine.obj
+ 0001:0003d788       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e788 f   BaseEngine.obj
+ 0001:0003d795       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e795 f   BaseEngine.obj
+ 0001:0003d7c0       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$0 0043e7c0 f   BaseEngine.obj
+ 0001:0003d7c8       __unwindfunclet$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z$1 0043e7c8 f   BaseEngine.obj
+ 0001:0003d7d5       __ehhandler$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0043e7d5 f   BaseEngine.obj
  0001:0003d800       __ehhandler$??1DisplayableObjectContainer@@UAE@XZ 0043e800 f   BaseEngine.obj
  0001:0003d830       __ehhandler$?_Tidy@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXXZ 0043e830 f   BaseEngine.obj
  0001:0003d860       __unwindfunclet$?getFont@FontManager@@QAEPAVFont@@PBDH@Z$0 0043e860 f   FontManager.obj
@@ -6398,300 +6398,300 @@
  0002:0000c750       $SG100464                  0044e750     MazeDemoTileManager.obj
  0002:0000c818       $SG100466                  0044e818     MazeDemoTileManager.obj
  0002:0000ca68       _GS_ExceptionPointers      0044ea68     MSVCRTD:gs_report.obj
- 0002:0000f178       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00451178     Arrow.obj
- 0002:0000f180       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00451180     Arrow.obj
- 0002:0000f1a8       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 004511a8     Arrow.obj
- 0002:0000f1b0       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 004511b0     Arrow.obj
- 0002:0000f1d8       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 004511d8     Arrow.obj
- 0002:0000f200       __ehfuncinfo$?_Take_contents@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXAAV12@@Z 00451200     Arrow.obj
- 0002:0000f228       __ehfuncinfo$?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 00451228     Arrow.obj
- 0002:0000f250       __unwindtable$??0RawImageData@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 00451250     Arrow.obj
- 0002:0000f258       __ehfuncinfo$??0RawImageData@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 00451258     Arrow.obj
- 0002:0000f280       __ehfuncinfo$??1RawImageData@@QAE@XZ 00451280     Arrow.obj
- 0002:0000f2a8       __unwindtable$?loadImage@RawImageData@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHH_N@Z 004512a8     Arrow.obj
- 0002:0000f2b0       __ehfuncinfo$?loadImage@RawImageData@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHH_N@Z 004512b0     Arrow.obj
- 0002:0000f2d8       __catchsym$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$3 004512d8     Arrow.obj
- 0002:0000f2e8       __tryblocktable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 004512e8     Arrow.obj
- 0002:0000f2fc       __unwindtable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 004512fc     Arrow.obj
- 0002:0000f314       __ehfuncinfo$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 00451314     Arrow.obj
- 0002:0000f344       __unwindtable$?virtDraw@Arrow@@UAEXXZ 00451344     Arrow.obj
- 0002:0000f354       __ehfuncinfo$?virtDraw@Arrow@@UAEXXZ 00451354     Arrow.obj
- 0002:0000f380       __unwindtable$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 00451380     Arrow.obj
- 0002:0000f388       __ehfuncinfo$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 00451388     Arrow.obj
- 0002:0000f3b0       __unwindtable$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 004513b0     Arrow.obj
- 0002:0000f3b8       __ehfuncinfo$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 004513b8     Arrow.obj
- 0002:0000f3e0       __unwindtable$?get@ImageManager@@SAPAV1@XZ 004513e0     Arrow.obj
- 0002:0000f3e8       __ehfuncinfo$?get@ImageManager@@SAPAV1@XZ 004513e8     Arrow.obj
- 0002:0000f410       __unwindtable$?loadImage@ImageManager@@SA?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 00451410     Arrow.obj
- 0002:0000f420       __ehfuncinfo$?loadImage@ImageManager@@SA?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 00451420     Arrow.obj
- 0002:0000f44c       __unwindtable$??0ImageManager@@QAE@XZ 0045144c     Arrow.obj
- 0002:0000f454       __ehfuncinfo$??0ImageManager@@QAE@XZ 00451454     Arrow.obj
- 0002:0000f47c       __ehfuncinfo$?getImagePtrbyURL@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@_N1@Z 0045147c     Arrow.obj
- 0002:0000f4a0       __unwindtable$?getImagePtrbyURL@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@_N1@Z 004514a0     Arrow.obj
- 0002:0000f4d8       __unwindtable$?getImagebyURL@ImageManager@@QAE?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z 004514d8     Arrow.obj
- 0002:0000f4e0       __ehfuncinfo$?getImagebyURL@ImageManager@@QAE?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z 004514e0     Arrow.obj
- 0002:0000f508       __unwindtable$?loadAsNew@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z 00451508     Arrow.obj
- 0002:0000f518       __ehfuncinfo$?loadAsNew@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z 00451518     Arrow.obj
- 0002:0000f544       __unwindtable$??$?0VRawImageData@@$0A@@?$shared_ptr@VRawImageData@@@std@@QAE@PAVRawImageData@@@Z 00451544     Arrow.obj
- 0002:0000f554       __ehfuncinfo$??$?0VRawImageData@@$0A@@?$shared_ptr@VRawImageData@@@std@@QAE@PAVRawImageData@@@Z 00451554     Arrow.obj
- 0002:0000f580       __unwindtable$??$_Construct@$00PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 00451580     Arrow.obj
- 0002:0000f588       __ehfuncinfo$??$_Construct@$00PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 00451588     Arrow.obj
- 0002:0000f5b0       __unwindtable$??$_Construct@$01PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 004515b0     Arrow.obj
- 0002:0000f5b8       __ehfuncinfo$??$_Construct@$01PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 004515b8     Arrow.obj
- 0002:0000f5e0       __ehfuncinfo$??$_Deallocate@$07$0A@@std@@YAXPAXI@Z 004515e0     Arrow.obj
- 0002:0000f608       __ehfuncinfo$??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 00451608     Arrow.obj
- 0002:0000f630       __unwindtable$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 00451630     Arrow.obj
- 0002:0000f638       __ehfuncinfo$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 00451638     Arrow.obj
- 0002:0000f660       __ehfuncinfo$??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 00451660     Arrow.obj
- 0002:0000f688       __catchsym$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z$3 00451688     Arrow.obj
- 0002:0000f698       __tryblocktable$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 00451698     Arrow.obj
- 0002:0000f6ac       __unwindtable$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 004516ac     Arrow.obj
- 0002:0000f6c4       __ehfuncinfo$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 004516c4     Arrow.obj
- 0002:0000f6f4       __ehfuncinfo$??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@QAU_Container_proxy@0@@Z 004516f4     Arrow.obj
- 0002:0000f71c       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 0045171c     Arrow.obj
- 0002:0000f744       __ehfuncinfo$??$_Freenode@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 00451744     Arrow.obj
- 0002:0000f76c       __ehfuncinfo$??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 0045176c     Arrow.obj
- 0002:0000f794       __unwindtable$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 00451794     Arrow.obj
- 0002:0000f79c       __ehfuncinfo$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 0045179c     Arrow.obj
- 0002:0000f7c4       __ehfuncinfo$??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 004517c4     Arrow.obj
- 0002:0000f7ec       __unwindtable$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@1@@Z 004517ec     Arrow.obj
- 0002:0000f7f4       __ehfuncinfo$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@1@@Z 004517f4     Arrow.obj
- 0002:0000f81c       __ehfuncinfo$??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 0045181c     Arrow.obj
- 0002:0000f844       __unwindtable$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 00451844     Arrow.obj
- 0002:0000f84c       __ehfuncinfo$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 0045184c     Arrow.obj
- 0002:0000f874       __ehfuncinfo$??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 00451874     Arrow.obj
- 0002:0000f89c       __unwindtable$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@1@@Z 0045189c     Arrow.obj
- 0002:0000f8a4       __ehfuncinfo$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@1@@Z 004518a4     Arrow.obj
- 0002:0000f954       __unwindtable$?_Orphan_range_locked@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@ABEXPAPAVDisplayableObject@@0@Z 00451954     DraggingDemo.obj
- 0002:0000f95c       __ehfuncinfo$?_Orphan_range_locked@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@ABEXPAPAVDisplayableObject@@0@Z 0045195c     DraggingDemo.obj
- 0002:0000f984       __unwindtable$??0DragableObject@@QAE@PAVBaseEngine@@HH_N1@Z 00451984     DraggingDemo.obj
- 0002:0000f98c       __ehfuncinfo$??0DragableObject@@QAE@PAVBaseEngine@@HH_N1@Z 0045198c     DraggingDemo.obj
- 0002:0000f9b4       __unwindtable$??0DragableObject@@QAE@HHPAVBaseEngine@@HH_N1@Z 004519b4     DraggingDemo.obj
- 0002:0000f9bc       __ehfuncinfo$??0DragableObject@@QAE@HHPAVBaseEngine@@HH_N1@Z 004519bc     DraggingDemo.obj
- 0002:0000f9e4       __unwindtable$??0DragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 004519e4     DraggingDemo.obj
- 0002:0000fa04       __ehfuncinfo$??0DragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 00451a04     DraggingDemo.obj
- 0002:0000fa30       __ehfuncinfo$?virtInitialiseObjects@DraggingDemo@@UAEHXZ 00451a30     DraggingDemo.obj
- 0002:0000fa54       __unwindtable$?virtInitialiseObjects@DraggingDemo@@UAEHXZ 00451a54     DraggingDemo.obj
- 0002:0000fa84       __unwindtable$??0ImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 00451a84     DraggingDemo.obj
- 0002:0000faa4       __ehfuncinfo$??0ImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 00451aa4     DraggingDemo.obj
- 0002:0000fad0       __catchsym$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z$2 00451ad0     DraggingDemo.obj
- 0002:0000fae0       __unwindtable$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451ae0     DraggingDemo.obj
- 0002:0000faf0       __tryblocktable$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451af0     DraggingDemo.obj
- 0002:0000fb04       __ehfuncinfo$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451b04     DraggingDemo.obj
- 0002:0000fb30       __unwindtable$??$_Uninitialized_value_construct_n@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@PAPAV1@IAAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b30     DraggingDemo.obj
- 0002:0000fb38       __ehfuncinfo$??$_Uninitialized_value_construct_n@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@PAPAV1@IAAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b38     DraggingDemo.obj
- 0002:0000fb60       __unwindtable$??$_Uninitialized_move@PAPAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@QAPAV1@0PAPAV1@AAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b60     DraggingDemo.obj
- 0002:0000fb68       __ehfuncinfo$??$_Uninitialized_move@PAPAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@QAPAV1@0PAPAV1@AAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b68     DraggingDemo.obj
- 0002:0000fb90       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00451b90     Enemy.obj
- 0002:0000fbb8       __unwindtable$??0GameObject@@QAE@HHPAVBaseEngine@@HH_N@Z 00451bb8     Enemy.obj
- 0002:0000fbc0       __ehfuncinfo$??0GameObject@@QAE@HHPAVBaseEngine@@HH_N@Z 00451bc0     Enemy.obj
- 0002:0000fbe8       __unwindtable$?virtDoUpdate@Enemy@@UAEXH@Z 00451be8     Enemy.obj
- 0002:0000fbf0       __unwindtable$?virtDraw@Enemy@@UAEXXZ 00451bf0     Enemy.obj
- 0002:0000fbf8       __ehfuncinfo$?virtDoUpdate@Enemy@@UAEXH@Z 00451bf8     Enemy.obj
- 0002:0000fc1c       __ehfuncinfo$?virtDraw@Enemy@@UAEXXZ 00451c1c     Enemy.obj
- 0002:0000fc48       __unwindtable$??0Attack@@QAE@PAVBaseEngine@@HHH@Z 00451c48     Enemy.obj
- 0002:0000fc50       __ehfuncinfo$??0Attack@@QAE@PAVBaseEngine@@HHH@Z 00451c50     Enemy.obj
- 0002:0000fc78       __catchsym$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z$2 00451c78     Enemy.obj
- 0002:0000fc88       __unwindtable$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451c88     Enemy.obj
- 0002:0000fc98       __tryblocktable$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451c98     Enemy.obj
- 0002:0000fcac       __ehfuncinfo$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451cac     Enemy.obj
- 0002:0000fcd8       __unwindtable$??0FlashingDemo@@QAE@XZ 00451cd8     FlashingDemo.obj
- 0002:0000fcf0       __ehfuncinfo$??0FlashingDemo@@QAE@XZ 00451cf0     FlashingDemo.obj
- 0002:0000fd1c       __ehfuncinfo$?virtInitialiseObjects@ImageMappingDemo@@UAEHXZ 00451d1c     ImageMappingDemo.obj
- 0002:0000fd40       __unwindtable$?virtInitialiseObjects@ImageMappingDemo@@UAEHXZ 00451d40     ImageMappingDemo.obj
- 0002:0000fd70       __unwindtable$??0MappableImageObject@@QAE@PAVImagePixelMapping@@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N3@Z 00451d70     ImageMappingDemo.obj
- 0002:0000fd78       __ehfuncinfo$??0MappableImageObject@@QAE@PAVImagePixelMapping@@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N3@Z 00451d78     ImageMappingDemo.obj
- 0002:0000fda0       __unwindtable$?virtDraw@MST@@UAEXXZ 00451da0     MST.obj
- 0002:0000fdb0       __unwindtable$?minimumSpanningTree@@YA?AV?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@V?$vector@UNode@@V?$allocator@UNode@@@std@@@2@@Z 00451db0     MST.obj
- 0002:0000fdd0       __ehfuncinfo$?minimumSpanningTree@@YA?AV?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@V?$vector@UNode@@V?$allocator@UNode@@@std@@@2@@Z 00451dd0     MST.obj
- 0002:0000fdf4       __ehfuncinfo$?virtDraw@MST@@UAEXXZ 00451df4     MST.obj
- 0002:0000fe24       __unwindtable$??$for_each@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@@std@@YA?AV<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00451e24     MST.obj
- 0002:0000fe34       __ehfuncinfo$??$for_each@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@@std@@YA?AV<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00451e34     MST.obj
- 0002:0000fe60       __ehfuncinfo$??0?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAE@XZ 00451e60     MST.obj
- 0002:0000fe88       __ehfuncinfo$??0?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAE@$$QAV01@@Z 00451e88     MST.obj
- 0002:0000feb0       __ehfuncinfo$?pop_back@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAEXXZ 00451eb0     MST.obj
- 0002:0000fed8       __ehfuncinfo$?_Tidy@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEXXZ 00451ed8     MST.obj
- 0002:0000ff00       __unwindtable$?_Orphan_range_locked@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@ABEXPAUEdge@@0@Z 00451f00     MST.obj
- 0002:0000ff08       __ehfuncinfo$?_Orphan_range_locked@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@ABEXPAUEdge@@0@Z 00451f08     MST.obj
- 0002:0000ff30       __ehfuncinfo$??0?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@QAE@XZ 00451f30     MST.obj
- 0002:0000ff58       __ehfuncinfo$?_Tidy@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXXZ 00451f58     MST.obj
- 0002:0000ff80       __unwindtable$?_Orphan_range_locked@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@ABEXPAUNode@@0@Z 00451f80     MST.obj
- 0002:0000ff88       __ehfuncinfo$?_Orphan_range_locked@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@ABEXPAUNode@@0@Z 00451f88     MST.obj
- 0002:0000ffb0       __unwindtable$??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00451fb0     MST.obj
- 0002:0000ffb8       __ehfuncinfo$??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00451fb8     MST.obj
- 0002:0000ffe0       __ehfuncinfo$?erase@?$vector@IV?$allocator@I@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@2@0@Z 00451fe0     MST.obj
- 0002:00010008       __ehfuncinfo$?_Tidy@?$vector@IV?$allocator@I@std@@@std@@AAEXXZ 00452008     MST.obj
- 0002:00010030       __unwindtable$?_Orphan_range_locked@?$vector@IV?$allocator@I@std@@@std@@ABEXPAI0@Z 00452030     MST.obj
- 0002:00010038       __ehfuncinfo$?_Orphan_range_locked@?$vector@IV?$allocator@I@std@@@std@@ABEXPAI0@Z 00452038     MST.obj
- 0002:00010060       __unwindtable$??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00452060     MST.obj
- 0002:00010068       __ehfuncinfo$??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00452068     MST.obj
- 0002:00010090       __unwindtable$??$pop_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 00452090     MST.obj
- 0002:000100a0       __ehfuncinfo$??$pop_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 004520a0     MST.obj
- 0002:000100cc       __unwindtable$??$push_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 004520cc     MST.obj
- 0002:000100dc       __ehfuncinfo$??$push_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 004520dc     MST.obj
- 0002:00010108       __unwindtable$??$_Construct_n@ABQAUNode@@ABQAU1@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXIABQAUNode@@0@Z 00452108     MST.obj
- 0002:00010118       __ehfuncinfo$??$_Construct_n@ABQAUNode@@ABQAU1@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXIABQAUNode@@0@Z 00452118     MST.obj
- 0002:00010144       __unwindtable$??$_Construct_n@ABI@?$vector@IV?$allocator@I@std@@@std@@AAEXIABI@Z 00452144     MST.obj
- 0002:00010154       __ehfuncinfo$??$_Construct_n@ABI@?$vector@IV?$allocator@I@std@@@std@@AAEXIABI@Z 00452154     MST.obj
- 0002:00010180       __catchsym$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z$2 00452180     MST.obj
- 0002:00010190       __unwindtable$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 00452190     MST.obj
- 0002:000101a0       __tryblocktable$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 004521a0     MST.obj
- 0002:000101b4       __ehfuncinfo$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 004521b4     MST.obj
- 0002:000101e0       __unwindtable$??$_Uninitialized_copy@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004521e0     MST.obj
- 0002:000101e8       __ehfuncinfo$??$_Uninitialized_copy@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004521e8     MST.obj
- 0002:00010210       __catchsym$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z$2 00452210     MST.obj
- 0002:00010220       __unwindtable$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 00452220     MST.obj
- 0002:00010230       __tryblocktable$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 00452230     MST.obj
- 0002:00010244       __ehfuncinfo$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 00452244     MST.obj
- 0002:00010270       __unwindtable$??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPAIPAIIABIAAV?$allocator@I@0@@Z 00452270     MST.obj
- 0002:00010278       __ehfuncinfo$??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPAIPAIIABIAAV?$allocator@I@0@@Z 00452278     MST.obj
- 0002:000102a0       __unwindtable$??$_Uninitialized_move@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004522a0     MST.obj
- 0002:000102a8       __ehfuncinfo$??$_Uninitialized_move@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004522a8     MST.obj
- 0002:000102d0       __unwindtable$??$_Uninitialized_move@PAUEdge@@V?$allocator@UEdge@@@std@@@std@@YAPAUEdge@@QAU1@0PAU1@AAV?$allocator@UEdge@@@0@@Z 004522d0     MST.obj
- 0002:000102d8       __ehfuncinfo$??$_Uninitialized_move@PAUEdge@@V?$allocator@UEdge@@@std@@@std@@YAPAUEdge@@QAU1@0PAU1@AAV?$allocator@UEdge@@@0@@Z 004522d8     MST.obj
- 0002:00010300       __unwindtable$?virtDrawTileAt@NumberTiles@@UBEXPAVBaseEngine@@PAVDrawingSurface@@HHHH@Z 00452300     NumberTiles.obj
- 0002:00010310       __ehfuncinfo$?virtDrawTileAt@NumberTiles@@UBEXPAVBaseEngine@@PAVDrawingSurface@@HHHH@Z 00452310     NumberTiles.obj
- 0002:0001033c       __unwindtable$?virtKeyDown@LoseState@@UAEXH@Z 0045233c     LoseState.obj
- 0002:00010344       __unwindtable$?virtSetupBackgroundBuffer@LoseState@@UAEXXZ 00452344     LoseState.obj
- 0002:00010354       __ehfuncinfo$??1LoseState@@UAE@XZ 00452354     LoseState.obj
- 0002:00010378       __ehfuncinfo$?virtKeyDown@LoseState@@UAEXH@Z 00452378     LoseState.obj
- 0002:0001039c       __ehfuncinfo$?virtSetupBackgroundBuffer@LoseState@@UAEXXZ 0045239c     LoseState.obj
- 0002:000103d0       __unwindtable$?doProgram@@YAHHQAPAD@Z 004523d0     mainfunction.obj
- 0002:000103d8       __ehfuncinfo$?doProgram@@YAHHQAPAD@Z 004523d8     mainfunction.obj
- 0002:00010400       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 00452400     mainfunction.obj
- 0002:00010428       __ehfuncinfo$??$_Freenode@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 00452428     mainfunction.obj
- 0002:00010450       __ehfuncinfo$??1DisplayableObjectContainer@@UAE@XZ 00452450     BaseEngine.obj
- 0002:00010478       __ehfuncinfo$?_Tidy@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXXZ 00452478     BaseEngine.obj
- 0002:000104a0       __unwindtable$?updateAllObjects@BaseEngine@@UAEXH@Z 004524a0     BaseEngine.obj
- 0002:000104b0       __unwindtable$?drawAllObjects@BaseEngine@@UAEXXZ 004524b0     BaseEngine.obj
- 0002:000104c0       __unwindtable$??0BaseEngine@@QAE@XZ 004524c0     BaseEngine.obj
- 0002:000104d8       __ehfuncinfo$?updateAllObjects@BaseEngine@@UAEXH@Z 004524d8     BaseEngine.obj
- 0002:000104fc       __ehfuncinfo$?drawAllObjects@BaseEngine@@UAEXXZ 004524fc     BaseEngine.obj
- 0002:00010520       __ehfuncinfo$??0BaseEngine@@QAE@XZ 00452520     BaseEngine.obj
- 0002:00010554       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452554     BaseEngine.obj
- 0002:00010564       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_57ee486f2f872818e4e1ef76732269ef>@@@std@@YA?AV<lambda_57ee486f2f872818e4e1ef76732269ef>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452564     BaseEngine.obj
- 0002:00010590       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452590     BaseEngine.obj
- 0002:000105a0       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_83eb8fcb36b73c451092a4848be40800>@@@std@@YA?AV<lambda_83eb8fcb36b73c451092a4848be40800>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004525a0     BaseEngine.obj
- 0002:000105cc       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004525cc     BaseEngine.obj
- 0002:000105dc       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b68d6ab0d55fd1970844512a3930ef49>@@@std@@YA?AV<lambda_b68d6ab0d55fd1970844512a3930ef49>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004525dc     BaseEngine.obj
- 0002:00010608       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452608     BaseEngine.obj
- 0002:00010618       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_9a6d32bae543137263d1d545e39fdd7d>@@@std@@YA?AV<lambda_9a6d32bae543137263d1d545e39fdd7d>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452618     BaseEngine.obj
- 0002:00010644       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452644     BaseEngine.obj
- 0002:00010654       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_aaa801efaf28ef4796b623796d655d59>@@@std@@YA?AV<lambda_aaa801efaf28ef4796b623796d655d59>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452654     BaseEngine.obj
- 0002:00010680       __unwindtable$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z 00452680     BaseEngine.obj
- 0002:00010690       __ehfuncinfo$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z 00452690     BaseEngine.obj
- 0002:000106bc       __unwindtable$?getFont@FontManager@@QAEPAVFont@@PBDH@Z 004526bc     FontManager.obj
- 0002:000106c4       __ehfuncinfo$?getFont@FontManager@@QAEPAVFont@@PBDH@Z 004526c4     FontManager.obj
- 0002:000106ec       __unwindtable$?virtDraw@Player@@UAEXXZ 004526ec     Player.obj
- 0002:000106f4       __ehfuncinfo$?virtDraw@Player@@UAEXXZ 004526f4     Player.obj
- 0002:0001071c       __unwindtable$?uploadScore@Psydp3Engine@@QAEXXZ 0045271c     Psydp3Engine.obj
- 0002:00010724       __ehfuncinfo$?uploadScore@Psydp3Engine@@QAEXXZ 00452724     Psydp3Engine.obj
- 0002:00010748       __ehfuncinfo$??0Psydp3Engine@@QAE@XZ 00452748     Psydp3Engine.obj
- 0002:0001076c       __unwindtable$??0Psydp3Engine@@QAE@XZ 0045276c     Psydp3Engine.obj
- 0002:000107a0       __unwindtable$??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 004527a0     Psydp3Engine.obj
- 0002:000107b0       __ehfuncinfo$??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 004527b0     Psydp3Engine.obj
- 0002:000107dc       __unwindtable$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@XZ 004527dc     Psydp3Engine.obj
- 0002:000107e4       __ehfuncinfo$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@XZ 004527e4     Psydp3Engine.obj
- 0002:0001080c       __ehfuncinfo$??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 0045280c     Psydp3Engine.obj
- 0002:00010834       __unwindtable$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00452834     Psydp3Engine.obj
- 0002:0001083c       __ehfuncinfo$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 0045283c     Psydp3Engine.obj
- 0002:00010864       __unwindtable$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00452864     Psydp3Engine.obj
- 0002:0001086c       __ehfuncinfo$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0045286c     Psydp3Engine.obj
- 0002:00010894       __unwindtable$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 00452894     Psydp3Engine.obj
- 0002:000108a4       __ehfuncinfo$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 004528a4     Psydp3Engine.obj
- 0002:00010914       __unwindtable$?virtDraw@Attack@@UAEXXZ 00452914     Attack.obj
- 0002:0001091c       __ehfuncinfo$?virtDraw@Attack@@UAEXXZ 0045291c     Attack.obj
- 0002:00010944       __ehfuncinfo$?erase@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@2@@Z 00452944     Attack.obj
- 0002:0001096c       __unwindtable$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@PAVDisplayableObject@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@V10@V10@ABQAVDisplayableObject@@@Z 0045296c     Attack.obj
- 0002:0001097c       __ehfuncinfo$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@PAVDisplayableObject@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@V10@V10@ABQAVDisplayableObject@@@Z 0045297c     Attack.obj
- 0002:000109a8       __unwindtable$?setAllObjectsVisible@DisplayableObjectContainer@@QBEX_N@Z 004529a8     RunningState.obj
- 0002:000109b0       __ehfuncinfo$?setAllObjectsVisible@DisplayableObjectContainer@@QBEX_N@Z 004529b0     RunningState.obj
- 0002:000109d8       __unwindtable$?virtMainLoopDoBeforeUpdate@RunningState@@UAEXXZ 004529d8     RunningState.obj
- 0002:000109e0       __unwindtable$?virtDrawStringsUnderneath@RunningState@@UAEXXZ 004529e0     RunningState.obj
- 0002:000109e8       __unwindtable$?virtSetupBackgroundBuffer@RunningState@@UAEXXZ 004529e8     RunningState.obj
- 0002:000109f0       __unwindtable$?virtInitialiseObjects@RunningState@@UAEXXZ 004529f0     RunningState.obj
- 0002:00010a10       __ehfuncinfo$?virtMainLoopDoBeforeUpdate@RunningState@@UAEXXZ 00452a10     RunningState.obj
- 0002:00010a34       __ehfuncinfo$?virtDrawStringsUnderneath@RunningState@@UAEXXZ 00452a34     RunningState.obj
- 0002:00010a58       __ehfuncinfo$?virtInitialiseObjects@RunningState@@UAEXXZ 00452a58     RunningState.obj
- 0002:00010a7c       __ehfuncinfo$?virtSetupBackgroundBuffer@RunningState@@UAEXXZ 00452a7c     RunningState.obj
- 0002:00010ab4       __ehfuncinfo$??0LoseState@@QAE@PAVPsydp3Engine@@@Z 00452ab4     RunningState.obj
- 0002:00010ad8       __unwindtable$??0LoseState@@QAE@PAVPsydp3Engine@@@Z 00452ad8     RunningState.obj
- 0002:00010b08       __unwindtable$??0Player@@QAE@PAVBaseEngine@@AAH@Z 00452b08     RunningState.obj
- 0002:00010b10       __ehfuncinfo$??0Player@@QAE@PAVBaseEngine@@AAH@Z 00452b10     RunningState.obj
- 0002:00010b38       __unwindtable$??0Enemy@@QAE@PAVBaseEngine@@AAH@Z 00452b38     RunningState.obj
- 0002:00010b40       __ehfuncinfo$??0Enemy@@QAE@PAVBaseEngine@@AAH@Z 00452b40     RunningState.obj
- 0002:00010b68       __unwindtable$?virtInitialiseObjects@SimpleDemo@@UAEHXZ 00452b68     SimpleDemo.obj
- 0002:00010b78       __ehfuncinfo$?virtInitialiseObjects@SimpleDemo@@UAEHXZ 00452b78     SimpleDemo.obj
- 0002:00010ba4       __unwindtable$??0BouncingObject@@QAE@PAVBaseEngine@@HHNNNN@Z 00452ba4     SimpleDemo.obj
- 0002:00010bac       __ehfuncinfo$??0BouncingObject@@QAE@PAVBaseEngine@@HHNNNN@Z 00452bac     SimpleDemo.obj
- 0002:00010bd4       __unwindtable$??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z 00452bd4     StartupState.obj
- 0002:00010be4       __ehfuncinfo$??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z 00452be4     StartupState.obj
- 0002:00010c10       __unwindtable$?virtInitialiseObjects@StartupState@@UAEXXZ 00452c10     StartupState.obj
- 0002:00010c18       __unwindtable$??5@YAAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@AAV01@AAVNumberTiles@@@Z 00452c18     StartupState.obj
- 0002:00010c28       __unwindtable$?virtSetupBackgroundBuffer@StartupState@@UAEXXZ 00452c28     StartupState.obj
- 0002:00010c38       __unwindtable$?virtKeyDown@StartupState@@UAEXH@Z 00452c38     StartupState.obj
- 0002:00010c58       __ehfuncinfo$??5@YAAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@AAV01@AAVNumberTiles@@@Z 00452c58     StartupState.obj
- 0002:00010c7c       __ehfuncinfo$?virtInitialiseObjects@StartupState@@UAEXXZ 00452c7c     StartupState.obj
- 0002:00010ca0       __ehfuncinfo$?virtKeyDown@StartupState@@UAEXH@Z 00452ca0     StartupState.obj
- 0002:00010cc4       __ehfuncinfo$?virtSetupBackgroundBuffer@StartupState@@UAEXXZ 00452cc4     StartupState.obj
- 0002:00010d00       __unwindtable$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452d00     StartupState.obj
- 0002:00010d10       __ehfuncinfo$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452d10     StartupState.obj
- 0002:00010d3c       __ehfuncinfo$??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 00452d3c     StartupState.obj
- 0002:00010d64       __ehfuncinfo$?_Tidy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEXXZ 00452d64     StartupState.obj
- 0002:00010d8c       __unwindtable$?_Orphan_range_locked@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@ABEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 00452d8c     StartupState.obj
- 0002:00010d94       __ehfuncinfo$?_Orphan_range_locked@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@ABEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 00452d94     StartupState.obj
- 0002:00010dbc       __catchsym$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$4 00452dbc     StartupState.obj
- 0002:00010dcc       __tryblocktable$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452dcc     StartupState.obj
- 0002:00010de0       __unwindtable$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452de0     StartupState.obj
- 0002:00010e00       __ehfuncinfo$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452e00     StartupState.obj
- 0002:00010e30       __ehfuncinfo$??$_Destroy_range@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452e30     StartupState.obj
- 0002:00010e58       __ehfuncinfo$??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452e58     StartupState.obj
- 0002:00010e80       __unwindtable$??0sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@AAV12@_N@Z 00452e80     StartupState.obj
- 0002:00010e88       __ehfuncinfo$??0sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@AAV12@_N@Z 00452e88     StartupState.obj
- 0002:00010eb0       __catchsym$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z$2 00452eb0     StartupState.obj
- 0002:00010ec0       __unwindtable$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452ec0     StartupState.obj
- 0002:00010ed0       __tryblocktable$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452ed0     StartupState.obj
- 0002:00010ee4       __ehfuncinfo$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452ee4     StartupState.obj
- 0002:00010f10       __unwindtable$??$_Uninitialized_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@0PAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452f10     StartupState.obj
- 0002:00010f18       __ehfuncinfo$??$_Uninitialized_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@0PAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452f18     StartupState.obj
- 0002:00010f40       __unwindtable$??0BouncingBall1@@QAE@PAVBouncingBallMain@@HHHHPBDHHPAVTileManager@@@Z 00452f40     BouncingBall.obj
- 0002:00010f48       __unwindtable$??0BouncingBall@@QAE@PAVBouncingBallMain@@HHHHPBDHH@Z 00452f48     BouncingBall.obj
- 0002:00010f50       __ehfuncinfo$??0BouncingBall1@@QAE@PAVBouncingBallMain@@HHHHPBDHHPAVTileManager@@@Z 00452f50     BouncingBall.obj
- 0002:00010f74       __ehfuncinfo$??0BouncingBall@@QAE@PAVBouncingBallMain@@HHHHPBDHH@Z 00452f74     BouncingBall.obj
- 0002:00010fa0       __unwindtable$?virtInitialiseObjects@BouncingBallMain@@UAEHXZ 00452fa0     BouncingBallMain.obj
- 0002:00010fb8       __ehfuncinfo$?virtInitialiseObjects@BouncingBallMain@@UAEHXZ 00452fb8     BouncingBallMain.obj
- 0002:00010fe4       __unwindtable$?virtKeyDown@WinState@@UAEXH@Z 00452fe4     WinState.obj
- 0002:00010fec       __unwindtable$?virtSetupBackgroundBuffer@WinState@@UAEXXZ 00452fec     WinState.obj
- 0002:00010ff4       __unwindtable$?virtInitialiseObjects@WinState@@UAEXXZ 00452ff4     WinState.obj
- 0002:00011014       __ehfuncinfo$?virtInitialiseObjects@WinState@@UAEXXZ 00453014     WinState.obj
- 0002:00011038       __ehfuncinfo$?virtKeyDown@WinState@@UAEXH@Z 00453038     WinState.obj
- 0002:0001105c       __ehfuncinfo$?virtSetupBackgroundBuffer@WinState@@UAEXXZ 0045305c     WinState.obj
- 0002:00011090       __unwindtable$?virtInitialiseObjects@ZoomingDemo@@UAEHXZ 00453090     ZoomingDemo.obj
- 0002:000110b0       __ehfuncinfo$?virtInitialiseObjects@ZoomingDemo@@UAEHXZ 004530b0     ZoomingDemo.obj
- 0002:000110dc       __ehfuncinfo$??0SimpleFlashingDragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N2@Z 004530dc     ZoomingDemo.obj
- 0002:00011100       __unwindtable$??0SimpleFlashingDragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N2@Z 00453100     ZoomingDemo.obj
- 0002:00011144       __unwindtable$??0MazeDemoMain@@QAE@XZ 00453144     MazeDemoMain.obj
- 0002:0001114c       __ehfuncinfo$?virtInitialiseObjects@MazeDemoMain@@UAEHXZ 0045314c     MazeDemoMain.obj
- 0002:00011170       __ehfuncinfo$??0MazeDemoMain@@QAE@XZ 00453170     MazeDemoMain.obj
- 0002:00011194       __unwindtable$?virtInitialiseObjects@MazeDemoMain@@UAEHXZ 00453194     MazeDemoMain.obj
- 0002:000111c8       __unwindtable$??0MazeDemoObject@@QAE@PAVMazeDemoMain@@HH@Z 004531c8     MazeDemoObject.obj
- 0002:000111d0       __ehfuncinfo$??0MazeDemoObject@@QAE@PAVMazeDemoMain@@HH@Z 004531d0     MazeDemoObject.obj
- 0002:000111f8       __unwindtable$?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 004531f8     msvcprtd:locale0_implib.obj
- 0002:00011200       __ehfuncinfo$?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 00453200     msvcprtd:locale0_implib.obj
- 0002:00011228       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGPBXPBXE@Z 00453228     msvcprtd:vector_algorithms.obj
- 0002:00011250       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGPBXPBXG@Z 00453250     msvcprtd:vector_algorithms.obj
- 0002:00011278       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGPBXPBXI@Z 00453278     msvcprtd:vector_algorithms.obj
- 0002:000112a0       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGPBXPBX_K@Z 004532a0     msvcprtd:vector_algorithms.obj
- 0002:000112c8       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGPBXPBX0E@Z 004532c8     msvcprtd:vector_algorithms.obj
- 0002:000112f0       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGPBXPBX0G@Z 004532f0     msvcprtd:vector_algorithms.obj
- 0002:00011318       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGPBXPBX0I@Z 00453318     msvcprtd:vector_algorithms.obj
- 0002:00011340       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGPBXPBX0_K@Z 00453340     msvcprtd:vector_algorithms.obj
- 0002:00011368       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGIPBXQBXE@Z 00453368     msvcprtd:vector_algorithms.obj
- 0002:00011390       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGIPBXQBXG@Z 00453390     msvcprtd:vector_algorithms.obj
- 0002:000113b8       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGIPBXQBXI@Z 004533b8     msvcprtd:vector_algorithms.obj
- 0002:000113e0       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGIPBXQBX_K@Z 004533e0     msvcprtd:vector_algorithms.obj
- 0002:00011408       __sehtable$?__scrt_common_main_seh@@YAHXZ 00453408     MSVCRTD:exe_main.obj
- 0002:00011428       __sehtable$___scrt_is_nonwritable_in_current_image 00453428     MSVCRTD:utility.obj
+ 0002:0000f170       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00451170     Arrow.obj
+ 0002:0000f178       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00451178     Arrow.obj
+ 0002:0000f1a0       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 004511a0     Arrow.obj
+ 0002:0000f1a8       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 004511a8     Arrow.obj
+ 0002:0000f1d0       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 004511d0     Arrow.obj
+ 0002:0000f1f8       __ehfuncinfo$?_Take_contents@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXAAV12@@Z 004511f8     Arrow.obj
+ 0002:0000f220       __ehfuncinfo$?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 00451220     Arrow.obj
+ 0002:0000f248       __unwindtable$??0RawImageData@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 00451248     Arrow.obj
+ 0002:0000f250       __ehfuncinfo$??0RawImageData@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 00451250     Arrow.obj
+ 0002:0000f278       __ehfuncinfo$??1RawImageData@@QAE@XZ 00451278     Arrow.obj
+ 0002:0000f2a0       __unwindtable$?loadImage@RawImageData@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHH_N@Z 004512a0     Arrow.obj
+ 0002:0000f2a8       __ehfuncinfo$?loadImage@RawImageData@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHH_N@Z 004512a8     Arrow.obj
+ 0002:0000f2d0       __catchsym$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$3 004512d0     Arrow.obj
+ 0002:0000f2e0       __tryblocktable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 004512e0     Arrow.obj
+ 0002:0000f2f4       __unwindtable$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 004512f4     Arrow.obj
+ 0002:0000f30c       __ehfuncinfo$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 0045130c     Arrow.obj
+ 0002:0000f33c       __unwindtable$?virtDraw@Arrow@@UAEXXZ 0045133c     Arrow.obj
+ 0002:0000f34c       __ehfuncinfo$?virtDraw@Arrow@@UAEXXZ 0045134c     Arrow.obj
+ 0002:0000f378       __unwindtable$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 00451378     Arrow.obj
+ 0002:0000f380       __ehfuncinfo$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 00451380     Arrow.obj
+ 0002:0000f3a8       __unwindtable$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 004513a8     Arrow.obj
+ 0002:0000f3b0       __ehfuncinfo$?_Alloc_sentinel_and_proxy@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@2@$0A@@std@@@std@@IAEXXZ 004513b0     Arrow.obj
+ 0002:0000f3d8       __unwindtable$?get@ImageManager@@SAPAV1@XZ 004513d8     Arrow.obj
+ 0002:0000f3e0       __ehfuncinfo$?get@ImageManager@@SAPAV1@XZ 004513e0     Arrow.obj
+ 0002:0000f408       __unwindtable$?loadImage@ImageManager@@SA?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 00451408     Arrow.obj
+ 0002:0000f418       __ehfuncinfo$?loadImage@ImageManager@@SA?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z 00451418     Arrow.obj
+ 0002:0000f444       __unwindtable$??0ImageManager@@QAE@XZ 00451444     Arrow.obj
+ 0002:0000f44c       __ehfuncinfo$??0ImageManager@@QAE@XZ 0045144c     Arrow.obj
+ 0002:0000f474       __ehfuncinfo$?getImagePtrbyURL@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@_N1@Z 00451474     Arrow.obj
+ 0002:0000f498       __unwindtable$?getImagePtrbyURL@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@_N1@Z 00451498     Arrow.obj
+ 0002:0000f4d0       __unwindtable$?getImagebyURL@ImageManager@@QAE?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z 004514d0     Arrow.obj
+ 0002:0000f4d8       __ehfuncinfo$?getImagebyURL@ImageManager@@QAE?AVSimpleImage@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z 004514d8     Arrow.obj
+ 0002:0000f500       __unwindtable$?loadAsNew@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z 00451500     Arrow.obj
+ 0002:0000f510       __ehfuncinfo$?loadAsNew@ImageManager@@QAE?AV?$shared_ptr@VRawImageData@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z 00451510     Arrow.obj
+ 0002:0000f53c       __unwindtable$??$?0VRawImageData@@$0A@@?$shared_ptr@VRawImageData@@@std@@QAE@PAVRawImageData@@@Z 0045153c     Arrow.obj
+ 0002:0000f54c       __ehfuncinfo$??$?0VRawImageData@@$0A@@?$shared_ptr@VRawImageData@@@std@@QAE@PAVRawImageData@@@Z 0045154c     Arrow.obj
+ 0002:0000f578       __unwindtable$??$_Construct@$00PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 00451578     Arrow.obj
+ 0002:0000f580       __ehfuncinfo$??$_Construct@$00PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 00451580     Arrow.obj
+ 0002:0000f5a8       __unwindtable$??$_Construct@$01PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 004515a8     Arrow.obj
+ 0002:0000f5b0       __ehfuncinfo$??$_Construct@$01PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 004515b0     Arrow.obj
+ 0002:0000f5d8       __ehfuncinfo$??$_Deallocate@$07$0A@@std@@YAXPAXI@Z 004515d8     Arrow.obj
+ 0002:0000f600       __ehfuncinfo$??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 00451600     Arrow.obj
+ 0002:0000f628       __unwindtable$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 00451628     Arrow.obj
+ 0002:0000f630       __ehfuncinfo$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 00451630     Arrow.obj
+ 0002:0000f658       __ehfuncinfo$??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 00451658     Arrow.obj
+ 0002:0000f680       __catchsym$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z$3 00451680     Arrow.obj
+ 0002:0000f690       __tryblocktable$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 00451690     Arrow.obj
+ 0002:0000f6a4       __unwindtable$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 004516a4     Arrow.obj
+ 0002:0000f6bc       __ehfuncinfo$??$_Insert_string@DU?$char_traits@D@std@@I@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@QBDI@Z 004516bc     Arrow.obj
+ 0002:0000f6ec       __ehfuncinfo$??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@QAU_Container_proxy@0@@Z 004516ec     Arrow.obj
+ 0002:0000f714       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 00451714     Arrow.obj
+ 0002:0000f73c       __ehfuncinfo$??$_Freenode@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 0045173c     Arrow.obj
+ 0002:0000f764       __ehfuncinfo$??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 00451764     Arrow.obj
+ 0002:0000f78c       __unwindtable$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 0045178c     Arrow.obj
+ 0002:0000f794       __ehfuncinfo$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 00451794     Arrow.obj
+ 0002:0000f7bc       __ehfuncinfo$??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 004517bc     Arrow.obj
+ 0002:0000f7e4       __unwindtable$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@1@@Z 004517e4     Arrow.obj
+ 0002:0000f7ec       __ehfuncinfo$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$weak_ptr@VRawImageData@@@2@@1@@Z 004517ec     Arrow.obj
+ 0002:0000f814       __ehfuncinfo$??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 00451814     Arrow.obj
+ 0002:0000f83c       __unwindtable$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 0045183c     Arrow.obj
+ 0002:0000f844       __ehfuncinfo$??0?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@@Z 00451844     Arrow.obj
+ 0002:0000f86c       __ehfuncinfo$??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@XZ 0045186c     Arrow.obj
+ 0002:0000f894       __unwindtable$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@1@@Z 00451894     Arrow.obj
+ 0002:0000f89c       __ehfuncinfo$??$?0U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@@?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@std@@QAE@AAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@1@@Z 0045189c     Arrow.obj
+ 0002:0000f94c       __unwindtable$?_Orphan_range_locked@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@ABEXPAPAVDisplayableObject@@0@Z 0045194c     DraggingDemo.obj
+ 0002:0000f954       __ehfuncinfo$?_Orphan_range_locked@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@ABEXPAPAVDisplayableObject@@0@Z 00451954     DraggingDemo.obj
+ 0002:0000f97c       __unwindtable$??0DragableObject@@QAE@PAVBaseEngine@@HH_N1@Z 0045197c     DraggingDemo.obj
+ 0002:0000f984       __ehfuncinfo$??0DragableObject@@QAE@PAVBaseEngine@@HH_N1@Z 00451984     DraggingDemo.obj
+ 0002:0000f9ac       __unwindtable$??0DragableObject@@QAE@HHPAVBaseEngine@@HH_N1@Z 004519ac     DraggingDemo.obj
+ 0002:0000f9b4       __ehfuncinfo$??0DragableObject@@QAE@HHPAVBaseEngine@@HH_N1@Z 004519b4     DraggingDemo.obj
+ 0002:0000f9dc       __unwindtable$??0DragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 004519dc     DraggingDemo.obj
+ 0002:0000f9fc       __ehfuncinfo$??0DragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 004519fc     DraggingDemo.obj
+ 0002:0000fa28       __ehfuncinfo$?virtInitialiseObjects@DraggingDemo@@UAEHXZ 00451a28     DraggingDemo.obj
+ 0002:0000fa4c       __unwindtable$?virtInitialiseObjects@DraggingDemo@@UAEHXZ 00451a4c     DraggingDemo.obj
+ 0002:0000fa7c       __unwindtable$??0ImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 00451a7c     DraggingDemo.obj
+ 0002:0000fa9c       __ehfuncinfo$??0ImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N2@Z 00451a9c     DraggingDemo.obj
+ 0002:0000fac8       __catchsym$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z$2 00451ac8     DraggingDemo.obj
+ 0002:0000fad8       __unwindtable$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451ad8     DraggingDemo.obj
+ 0002:0000fae8       __tryblocktable$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451ae8     DraggingDemo.obj
+ 0002:0000fafc       __ehfuncinfo$??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXIABU_Value_init_tag@1@@Z 00451afc     DraggingDemo.obj
+ 0002:0000fb28       __unwindtable$??$_Uninitialized_value_construct_n@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@PAPAV1@IAAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b28     DraggingDemo.obj
+ 0002:0000fb30       __ehfuncinfo$??$_Uninitialized_value_construct_n@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@PAPAV1@IAAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b30     DraggingDemo.obj
+ 0002:0000fb58       __unwindtable$??$_Uninitialized_move@PAPAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@QAPAV1@0PAPAV1@AAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b58     DraggingDemo.obj
+ 0002:0000fb60       __ehfuncinfo$??$_Uninitialized_move@PAPAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@YAPAPAVDisplayableObject@@QAPAV1@0PAPAV1@AAV?$allocator@PAVDisplayableObject@@@0@@Z 00451b60     DraggingDemo.obj
+ 0002:0000fb88       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00451b88     Enemy.obj
+ 0002:0000fbb0       __unwindtable$??0GameObject@@QAE@HHPAVBaseEngine@@HH_N@Z 00451bb0     Enemy.obj
+ 0002:0000fbb8       __ehfuncinfo$??0GameObject@@QAE@HHPAVBaseEngine@@HH_N@Z 00451bb8     Enemy.obj
+ 0002:0000fbe0       __unwindtable$?virtDoUpdate@Enemy@@UAEXH@Z 00451be0     Enemy.obj
+ 0002:0000fbe8       __unwindtable$?virtDraw@Enemy@@UAEXXZ 00451be8     Enemy.obj
+ 0002:0000fbf0       __ehfuncinfo$?virtDoUpdate@Enemy@@UAEXH@Z 00451bf0     Enemy.obj
+ 0002:0000fc14       __ehfuncinfo$?virtDraw@Enemy@@UAEXXZ 00451c14     Enemy.obj
+ 0002:0000fc40       __unwindtable$??0Attack@@QAE@PAVBaseEngine@@HHH@Z 00451c40     Enemy.obj
+ 0002:0000fc48       __ehfuncinfo$??0Attack@@QAE@PAVBaseEngine@@HHH@Z 00451c48     Enemy.obj
+ 0002:0000fc70       __catchsym$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z$2 00451c70     Enemy.obj
+ 0002:0000fc80       __unwindtable$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451c80     Enemy.obj
+ 0002:0000fc90       __tryblocktable$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451c90     Enemy.obj
+ 0002:0000fca4       __ehfuncinfo$??$_Emplace_reallocate@ABQAVDisplayableObject@@@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEPAPAVDisplayableObject@@QAPAV2@ABQAV2@@Z 00451ca4     Enemy.obj
+ 0002:0000fcd0       __unwindtable$??0FlashingDemo@@QAE@XZ 00451cd0     FlashingDemo.obj
+ 0002:0000fce8       __ehfuncinfo$??0FlashingDemo@@QAE@XZ 00451ce8     FlashingDemo.obj
+ 0002:0000fd14       __ehfuncinfo$?virtInitialiseObjects@ImageMappingDemo@@UAEHXZ 00451d14     ImageMappingDemo.obj
+ 0002:0000fd38       __unwindtable$?virtInitialiseObjects@ImageMappingDemo@@UAEHXZ 00451d38     ImageMappingDemo.obj
+ 0002:0000fd68       __unwindtable$??0MappableImageObject@@QAE@PAVImagePixelMapping@@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N3@Z 00451d68     ImageMappingDemo.obj
+ 0002:0000fd70       __ehfuncinfo$??0MappableImageObject@@QAE@PAVImagePixelMapping@@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N3@Z 00451d70     ImageMappingDemo.obj
+ 0002:0000fd98       __unwindtable$?virtDraw@MST@@UAEXXZ 00451d98     MST.obj
+ 0002:0000fda8       __unwindtable$?minimumSpanningTree@@YA?AV?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@V?$vector@UNode@@V?$allocator@UNode@@@std@@@2@@Z 00451da8     MST.obj
+ 0002:0000fdc8       __ehfuncinfo$?minimumSpanningTree@@YA?AV?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@V?$vector@UNode@@V?$allocator@UNode@@@std@@@2@@Z 00451dc8     MST.obj
+ 0002:0000fdec       __ehfuncinfo$?virtDraw@MST@@UAEXXZ 00451dec     MST.obj
+ 0002:0000fe1c       __unwindtable$??$for_each@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@@std@@YA?AV<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00451e1c     MST.obj
+ 0002:0000fe2c       __ehfuncinfo$??$for_each@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@@std@@YA?AV<lambda_8680d8acf56a2b8556b7ef4ea6c3cac6>@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00451e2c     MST.obj
+ 0002:0000fe58       __ehfuncinfo$??0?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAE@XZ 00451e58     MST.obj
+ 0002:0000fe80       __ehfuncinfo$??0?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAE@$$QAV01@@Z 00451e80     MST.obj
+ 0002:0000fea8       __ehfuncinfo$?pop_back@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@QAEXXZ 00451ea8     MST.obj
+ 0002:0000fed0       __ehfuncinfo$?_Tidy@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEXXZ 00451ed0     MST.obj
+ 0002:0000fef8       __unwindtable$?_Orphan_range_locked@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@ABEXPAUEdge@@0@Z 00451ef8     MST.obj
+ 0002:0000ff00       __ehfuncinfo$?_Orphan_range_locked@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@ABEXPAUEdge@@0@Z 00451f00     MST.obj
+ 0002:0000ff28       __ehfuncinfo$??0?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@QAE@XZ 00451f28     MST.obj
+ 0002:0000ff50       __ehfuncinfo$?_Tidy@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXXZ 00451f50     MST.obj
+ 0002:0000ff78       __unwindtable$?_Orphan_range_locked@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@ABEXPAUNode@@0@Z 00451f78     MST.obj
+ 0002:0000ff80       __ehfuncinfo$?_Orphan_range_locked@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@ABEXPAUNode@@0@Z 00451f80     MST.obj
+ 0002:0000ffa8       __unwindtable$??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00451fa8     MST.obj
+ 0002:0000ffb0       __ehfuncinfo$??0?$_Vb_val@V?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00451fb0     MST.obj
+ 0002:0000ffd8       __ehfuncinfo$?erase@?$vector@IV?$allocator@I@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@I@std@@@std@@@2@0@Z 00451fd8     MST.obj
+ 0002:00010000       __ehfuncinfo$?_Tidy@?$vector@IV?$allocator@I@std@@@std@@AAEXXZ 00452000     MST.obj
+ 0002:00010028       __unwindtable$?_Orphan_range_locked@?$vector@IV?$allocator@I@std@@@std@@ABEXPAI0@Z 00452028     MST.obj
+ 0002:00010030       __ehfuncinfo$?_Orphan_range_locked@?$vector@IV?$allocator@I@std@@@std@@ABEXPAI0@Z 00452030     MST.obj
+ 0002:00010058       __unwindtable$??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00452058     MST.obj
+ 0002:00010060       __ehfuncinfo$??0?$vector@_NV?$allocator@_N@std@@@std@@QAE@IAB_NABV?$allocator@_N@1@@Z 00452060     MST.obj
+ 0002:00010088       __unwindtable$??$pop_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 00452088     MST.obj
+ 0002:00010098       __ehfuncinfo$??$pop_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 00452098     MST.obj
+ 0002:000100c4       __unwindtable$??$push_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 004520c4     MST.obj
+ 0002:000100d4       __ehfuncinfo$??$push_heap@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@std@@U?$less@UEdge@@@2@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UEdge@@@std@@@std@@@0@0U?$less@UEdge@@@0@@Z 004520d4     MST.obj
+ 0002:00010100       __unwindtable$??$_Construct_n@ABQAUNode@@ABQAU1@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXIABQAUNode@@0@Z 00452100     MST.obj
+ 0002:00010110       __ehfuncinfo$??$_Construct_n@ABQAUNode@@ABQAU1@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEXIABQAUNode@@0@Z 00452110     MST.obj
+ 0002:0001013c       __unwindtable$??$_Construct_n@ABI@?$vector@IV?$allocator@I@std@@@std@@AAEXIABI@Z 0045213c     MST.obj
+ 0002:0001014c       __ehfuncinfo$??$_Construct_n@ABI@?$vector@IV?$allocator@I@std@@@std@@AAEXIABI@Z 0045214c     MST.obj
+ 0002:00010178       __catchsym$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z$2 00452178     MST.obj
+ 0002:00010188       __unwindtable$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 00452188     MST.obj
+ 0002:00010198       __tryblocktable$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 00452198     MST.obj
+ 0002:000101ac       __ehfuncinfo$??$_Emplace_reallocate@ABUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@AAEPAUNode@@QAU2@ABU2@@Z 004521ac     MST.obj
+ 0002:000101d8       __unwindtable$??$_Uninitialized_copy@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004521d8     MST.obj
+ 0002:000101e0       __ehfuncinfo$??$_Uninitialized_copy@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004521e0     MST.obj
+ 0002:00010208       __catchsym$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z$2 00452208     MST.obj
+ 0002:00010218       __unwindtable$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 00452218     MST.obj
+ 0002:00010228       __tryblocktable$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 00452228     MST.obj
+ 0002:0001023c       __ehfuncinfo$??$_Emplace_reallocate@ABUEdge@@@?$vector@UEdge@@V?$allocator@UEdge@@@std@@@std@@AAEPAUEdge@@QAU2@ABU2@@Z 0045223c     MST.obj
+ 0002:00010268       __unwindtable$??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPAIPAIIABIAAV?$allocator@I@0@@Z 00452268     MST.obj
+ 0002:00010270       __ehfuncinfo$??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPAIPAIIABIAAV?$allocator@I@0@@Z 00452270     MST.obj
+ 0002:00010298       __unwindtable$??$_Uninitialized_move@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 00452298     MST.obj
+ 0002:000102a0       __ehfuncinfo$??$_Uninitialized_move@PAUNode@@V?$allocator@UNode@@@std@@@std@@YAPAUNode@@QAU1@0PAU1@AAV?$allocator@UNode@@@0@@Z 004522a0     MST.obj
+ 0002:000102c8       __unwindtable$??$_Uninitialized_move@PAUEdge@@V?$allocator@UEdge@@@std@@@std@@YAPAUEdge@@QAU1@0PAU1@AAV?$allocator@UEdge@@@0@@Z 004522c8     MST.obj
+ 0002:000102d0       __ehfuncinfo$??$_Uninitialized_move@PAUEdge@@V?$allocator@UEdge@@@std@@@std@@YAPAUEdge@@QAU1@0PAU1@AAV?$allocator@UEdge@@@0@@Z 004522d0     MST.obj
+ 0002:000102f8       __unwindtable$?virtDrawTileAt@NumberTiles@@UBEXPAVBaseEngine@@PAVDrawingSurface@@HHHH@Z 004522f8     NumberTiles.obj
+ 0002:00010308       __ehfuncinfo$?virtDrawTileAt@NumberTiles@@UBEXPAVBaseEngine@@PAVDrawingSurface@@HHHH@Z 00452308     NumberTiles.obj
+ 0002:00010334       __unwindtable$?virtKeyDown@LoseState@@UAEXH@Z 00452334     LoseState.obj
+ 0002:0001033c       __unwindtable$?virtSetupBackgroundBuffer@LoseState@@UAEXXZ 0045233c     LoseState.obj
+ 0002:0001034c       __ehfuncinfo$??1LoseState@@UAE@XZ 0045234c     LoseState.obj
+ 0002:00010370       __ehfuncinfo$?virtKeyDown@LoseState@@UAEXH@Z 00452370     LoseState.obj
+ 0002:00010394       __ehfuncinfo$?virtSetupBackgroundBuffer@LoseState@@UAEXXZ 00452394     LoseState.obj
+ 0002:000103c8       __unwindtable$?doProgram@@YAHHQAPAD@Z 004523c8     mainfunction.obj
+ 0002:000103d0       __ehfuncinfo$?doProgram@@YAHHQAPAD@Z 004523d0     mainfunction.obj
+ 0002:000103f8       __ehfuncinfo$??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 004523f8     mainfunction.obj
+ 0002:00010420       __ehfuncinfo$??$_Freenode@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VRawImageData@@@2@@std@@PAX@std@@@1@PAU01@@Z 00452420     mainfunction.obj
+ 0002:00010448       __ehfuncinfo$??1DisplayableObjectContainer@@UAE@XZ 00452448     BaseEngine.obj
+ 0002:00010470       __ehfuncinfo$?_Tidy@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXXZ 00452470     BaseEngine.obj
+ 0002:00010498       __unwindtable$?updateAllObjects@BaseEngine@@UAEXH@Z 00452498     BaseEngine.obj
+ 0002:000104a8       __unwindtable$?drawAllObjects@BaseEngine@@UAEXXZ 004524a8     BaseEngine.obj
+ 0002:000104b8       __unwindtable$??0BaseEngine@@QAE@XZ 004524b8     BaseEngine.obj
+ 0002:000104d0       __ehfuncinfo$?updateAllObjects@BaseEngine@@UAEXH@Z 004524d0     BaseEngine.obj
+ 0002:000104f4       __ehfuncinfo$?drawAllObjects@BaseEngine@@UAEXXZ 004524f4     BaseEngine.obj
+ 0002:00010518       __ehfuncinfo$??0BaseEngine@@QAE@XZ 00452518     BaseEngine.obj
+ 0002:0001054c       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0045254c     BaseEngine.obj
+ 0002:0001055c       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b152b3370034970c6812b79c46dd6f71>@@@std@@YA?AV<lambda_b152b3370034970c6812b79c46dd6f71>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0045255c     BaseEngine.obj
+ 0002:00010588       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452588     BaseEngine.obj
+ 0002:00010598       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@@std@@YA?AV<lambda_fdc233ec35bb274a9bead17d12dfd0ac>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452598     BaseEngine.obj
+ 0002:000105c4       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004525c4     BaseEngine.obj
+ 0002:000105d4       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_5845519189556a8c98af8cd93bce5d68>@@@std@@YA?AV<lambda_5845519189556a8c98af8cd93bce5d68>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 004525d4     BaseEngine.obj
+ 0002:00010600       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452600     BaseEngine.obj
+ 0002:00010610       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@@std@@YA?AV<lambda_b264064e6adba81c0a2b0ddc520f4f6e>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 00452610     BaseEngine.obj
+ 0002:0001063c       __unwindtable$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0045263c     BaseEngine.obj
+ 0002:0001064c       __ehfuncinfo$??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@V<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@@std@@YA?AV<lambda_a0a408c7cbfcda42f822a19b8ab52e0f>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@0V1@@Z 0045264c     BaseEngine.obj
+ 0002:00010678       __unwindtable$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z 00452678     BaseEngine.obj
+ 0002:00010688       __ehfuncinfo$??$_Construct_n@$$V@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@AAEXI@Z 00452688     BaseEngine.obj
+ 0002:000106b4       __unwindtable$?getFont@FontManager@@QAEPAVFont@@PBDH@Z 004526b4     FontManager.obj
+ 0002:000106bc       __ehfuncinfo$?getFont@FontManager@@QAEPAVFont@@PBDH@Z 004526bc     FontManager.obj
+ 0002:000106e4       __unwindtable$?virtDraw@Player@@UAEXXZ 004526e4     Player.obj
+ 0002:000106ec       __ehfuncinfo$?virtDraw@Player@@UAEXXZ 004526ec     Player.obj
+ 0002:00010714       __unwindtable$?uploadScore@Psydp3Engine@@QAEXXZ 00452714     Psydp3Engine.obj
+ 0002:0001071c       __ehfuncinfo$?uploadScore@Psydp3Engine@@QAEXXZ 0045271c     Psydp3Engine.obj
+ 0002:00010740       __ehfuncinfo$??0Psydp3Engine@@QAE@XZ 00452740     Psydp3Engine.obj
+ 0002:00010764       __unwindtable$??0Psydp3Engine@@QAE@XZ 00452764     Psydp3Engine.obj
+ 0002:00010798       __unwindtable$??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452798     Psydp3Engine.obj
+ 0002:000107a8       __ehfuncinfo$??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 004527a8     Psydp3Engine.obj
+ 0002:000107d4       __unwindtable$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@XZ 004527d4     Psydp3Engine.obj
+ 0002:000107dc       __ehfuncinfo$??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@XZ 004527dc     Psydp3Engine.obj
+ 0002:00010804       __ehfuncinfo$??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 00452804     Psydp3Engine.obj
+ 0002:0001082c       __unwindtable$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 0045282c     Psydp3Engine.obj
+ 0002:00010834       __ehfuncinfo$?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00452834     Psydp3Engine.obj
+ 0002:0001085c       __unwindtable$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0045285c     Psydp3Engine.obj
+ 0002:00010864       __ehfuncinfo$?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00452864     Psydp3Engine.obj
+ 0002:0001088c       __unwindtable$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 0045288c     Psydp3Engine.obj
+ 0002:0001089c       __ehfuncinfo$??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z 0045289c     Psydp3Engine.obj
+ 0002:0001090c       __unwindtable$?virtDraw@Attack@@UAEXXZ 0045290c     Attack.obj
+ 0002:00010914       __ehfuncinfo$?virtDraw@Attack@@UAEXXZ 00452914     Attack.obj
+ 0002:0001093c       __ehfuncinfo$?erase@?$vector@PAVDisplayableObject@@V?$allocator@PAVDisplayableObject@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@2@@Z 0045293c     Attack.obj
+ 0002:00010964       __unwindtable$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@PAVDisplayableObject@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@V10@V10@ABQAVDisplayableObject@@@Z 00452964     Attack.obj
+ 0002:00010974       __ehfuncinfo$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@std@@PAVDisplayableObject@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVDisplayableObject@@@std@@@std@@@0@V10@V10@ABQAVDisplayableObject@@@Z 00452974     Attack.obj
+ 0002:000109a0       __unwindtable$?setAllObjectsVisible@DisplayableObjectContainer@@QBEX_N@Z 004529a0     RunningState.obj
+ 0002:000109a8       __ehfuncinfo$?setAllObjectsVisible@DisplayableObjectContainer@@QBEX_N@Z 004529a8     RunningState.obj
+ 0002:000109d0       __unwindtable$?virtMainLoopDoBeforeUpdate@RunningState@@UAEXXZ 004529d0     RunningState.obj
+ 0002:000109d8       __unwindtable$?virtDrawStringsUnderneath@RunningState@@UAEXXZ 004529d8     RunningState.obj
+ 0002:000109e0       __unwindtable$?virtSetupBackgroundBuffer@RunningState@@UAEXXZ 004529e0     RunningState.obj
+ 0002:000109e8       __unwindtable$?virtInitialiseObjects@RunningState@@UAEXXZ 004529e8     RunningState.obj
+ 0002:00010a08       __ehfuncinfo$?virtMainLoopDoBeforeUpdate@RunningState@@UAEXXZ 00452a08     RunningState.obj
+ 0002:00010a2c       __ehfuncinfo$?virtDrawStringsUnderneath@RunningState@@UAEXXZ 00452a2c     RunningState.obj
+ 0002:00010a50       __ehfuncinfo$?virtInitialiseObjects@RunningState@@UAEXXZ 00452a50     RunningState.obj
+ 0002:00010a74       __ehfuncinfo$?virtSetupBackgroundBuffer@RunningState@@UAEXXZ 00452a74     RunningState.obj
+ 0002:00010aac       __ehfuncinfo$??0LoseState@@QAE@PAVPsydp3Engine@@@Z 00452aac     RunningState.obj
+ 0002:00010ad0       __unwindtable$??0LoseState@@QAE@PAVPsydp3Engine@@@Z 00452ad0     RunningState.obj
+ 0002:00010b00       __unwindtable$??0Player@@QAE@PAVBaseEngine@@AAH@Z 00452b00     RunningState.obj
+ 0002:00010b08       __ehfuncinfo$??0Player@@QAE@PAVBaseEngine@@AAH@Z 00452b08     RunningState.obj
+ 0002:00010b30       __unwindtable$??0Enemy@@QAE@PAVBaseEngine@@AAH@Z 00452b30     RunningState.obj
+ 0002:00010b38       __ehfuncinfo$??0Enemy@@QAE@PAVBaseEngine@@AAH@Z 00452b38     RunningState.obj
+ 0002:00010b60       __unwindtable$?virtInitialiseObjects@SimpleDemo@@UAEHXZ 00452b60     SimpleDemo.obj
+ 0002:00010b70       __ehfuncinfo$?virtInitialiseObjects@SimpleDemo@@UAEHXZ 00452b70     SimpleDemo.obj
+ 0002:00010b9c       __unwindtable$??0BouncingObject@@QAE@PAVBaseEngine@@HHNNNN@Z 00452b9c     SimpleDemo.obj
+ 0002:00010ba4       __ehfuncinfo$??0BouncingObject@@QAE@PAVBaseEngine@@HHNNNN@Z 00452ba4     SimpleDemo.obj
+ 0002:00010bcc       __unwindtable$??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z 00452bcc     StartupState.obj
+ 0002:00010bdc       __ehfuncinfo$??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z 00452bdc     StartupState.obj
+ 0002:00010c08       __unwindtable$?virtInitialiseObjects@StartupState@@UAEXXZ 00452c08     StartupState.obj
+ 0002:00010c10       __unwindtable$??5@YAAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@AAV01@AAVNumberTiles@@@Z 00452c10     StartupState.obj
+ 0002:00010c20       __unwindtable$?virtSetupBackgroundBuffer@StartupState@@UAEXXZ 00452c20     StartupState.obj
+ 0002:00010c30       __unwindtable$?virtKeyDown@StartupState@@UAEXH@Z 00452c30     StartupState.obj
+ 0002:00010c50       __ehfuncinfo$??5@YAAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@AAV01@AAVNumberTiles@@@Z 00452c50     StartupState.obj
+ 0002:00010c74       __ehfuncinfo$?virtInitialiseObjects@StartupState@@UAEXXZ 00452c74     StartupState.obj
+ 0002:00010c98       __ehfuncinfo$?virtKeyDown@StartupState@@UAEXH@Z 00452c98     StartupState.obj
+ 0002:00010cbc       __ehfuncinfo$?virtSetupBackgroundBuffer@StartupState@@UAEXXZ 00452cbc     StartupState.obj
+ 0002:00010cf8       __unwindtable$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452cf8     StartupState.obj
+ 0002:00010d08       __ehfuncinfo$??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452d08     StartupState.obj
+ 0002:00010d34       __ehfuncinfo$??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 00452d34     StartupState.obj
+ 0002:00010d5c       __ehfuncinfo$?_Tidy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEXXZ 00452d5c     StartupState.obj
+ 0002:00010d84       __unwindtable$?_Orphan_range_locked@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@ABEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 00452d84     StartupState.obj
+ 0002:00010d8c       __ehfuncinfo$?_Orphan_range_locked@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@ABEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 00452d8c     StartupState.obj
+ 0002:00010db4       __catchsym$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$4 00452db4     StartupState.obj
+ 0002:00010dc4       __tryblocktable$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452dc4     StartupState.obj
+ 0002:00010dd8       __unwindtable$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452dd8     StartupState.obj
+ 0002:00010df8       __ehfuncinfo$??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 00452df8     StartupState.obj
+ 0002:00010e28       __ehfuncinfo$??$_Destroy_range@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452e28     StartupState.obj
+ 0002:00010e50       __ehfuncinfo$??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@XZ 00452e50     StartupState.obj
+ 0002:00010e78       __unwindtable$??0sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@AAV12@_N@Z 00452e78     StartupState.obj
+ 0002:00010e80       __ehfuncinfo$??0sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@AAV12@_N@Z 00452e80     StartupState.obj
+ 0002:00010ea8       __catchsym$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z$2 00452ea8     StartupState.obj
+ 0002:00010eb8       __unwindtable$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452eb8     StartupState.obj
+ 0002:00010ec8       __tryblocktable$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452ec8     StartupState.obj
+ 0002:00010edc       __ehfuncinfo$??$_Emplace_reallocate@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@ABV21@@Z 00452edc     StartupState.obj
+ 0002:00010f08       __unwindtable$??$_Uninitialized_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@0PAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452f08     StartupState.obj
+ 0002:00010f10       __ehfuncinfo$??$_Uninitialized_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@0PAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z 00452f10     StartupState.obj
+ 0002:00010f38       __unwindtable$??0BouncingBall1@@QAE@PAVBouncingBallMain@@HHHHPBDHHPAVTileManager@@@Z 00452f38     BouncingBall.obj
+ 0002:00010f40       __unwindtable$??0BouncingBall@@QAE@PAVBouncingBallMain@@HHHHPBDHH@Z 00452f40     BouncingBall.obj
+ 0002:00010f48       __ehfuncinfo$??0BouncingBall1@@QAE@PAVBouncingBallMain@@HHHHPBDHHPAVTileManager@@@Z 00452f48     BouncingBall.obj
+ 0002:00010f6c       __ehfuncinfo$??0BouncingBall@@QAE@PAVBouncingBallMain@@HHHHPBDHH@Z 00452f6c     BouncingBall.obj
+ 0002:00010f98       __unwindtable$?virtInitialiseObjects@BouncingBallMain@@UAEHXZ 00452f98     BouncingBallMain.obj
+ 0002:00010fb0       __ehfuncinfo$?virtInitialiseObjects@BouncingBallMain@@UAEHXZ 00452fb0     BouncingBallMain.obj
+ 0002:00010fdc       __unwindtable$?virtKeyDown@WinState@@UAEXH@Z 00452fdc     WinState.obj
+ 0002:00010fe4       __unwindtable$?virtSetupBackgroundBuffer@WinState@@UAEXXZ 00452fe4     WinState.obj
+ 0002:00010fec       __unwindtable$?virtInitialiseObjects@WinState@@UAEXXZ 00452fec     WinState.obj
+ 0002:0001100c       __ehfuncinfo$?virtInitialiseObjects@WinState@@UAEXXZ 0045300c     WinState.obj
+ 0002:00011030       __ehfuncinfo$?virtKeyDown@WinState@@UAEXH@Z 00453030     WinState.obj
+ 0002:00011054       __ehfuncinfo$?virtSetupBackgroundBuffer@WinState@@UAEXXZ 00453054     WinState.obj
+ 0002:00011088       __unwindtable$?virtInitialiseObjects@ZoomingDemo@@UAEHXZ 00453088     ZoomingDemo.obj
+ 0002:000110a8       __ehfuncinfo$?virtInitialiseObjects@ZoomingDemo@@UAEHXZ 004530a8     ZoomingDemo.obj
+ 0002:000110d4       __ehfuncinfo$??0SimpleFlashingDragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N2@Z 004530d4     ZoomingDemo.obj
+ 0002:000110f8       __unwindtable$??0SimpleFlashingDragableImageObject@@QAE@HHPAVBaseEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N2@Z 004530f8     ZoomingDemo.obj
+ 0002:0001113c       __unwindtable$??0MazeDemoMain@@QAE@XZ 0045313c     MazeDemoMain.obj
+ 0002:00011144       __ehfuncinfo$?virtInitialiseObjects@MazeDemoMain@@UAEHXZ 00453144     MazeDemoMain.obj
+ 0002:00011168       __ehfuncinfo$??0MazeDemoMain@@QAE@XZ 00453168     MazeDemoMain.obj
+ 0002:0001118c       __unwindtable$?virtInitialiseObjects@MazeDemoMain@@UAEHXZ 0045318c     MazeDemoMain.obj
+ 0002:000111c0       __unwindtable$??0MazeDemoObject@@QAE@PAVMazeDemoMain@@HH@Z 004531c0     MazeDemoObject.obj
+ 0002:000111c8       __ehfuncinfo$??0MazeDemoObject@@QAE@PAVMazeDemoMain@@HH@Z 004531c8     MazeDemoObject.obj
+ 0002:000111f0       __unwindtable$?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 004531f0     msvcprtd:locale0_implib.obj
+ 0002:000111f8       __ehfuncinfo$?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z 004531f8     msvcprtd:locale0_implib.obj
+ 0002:00011220       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGPBXPBXE@Z 00453220     msvcprtd:vector_algorithms.obj
+ 0002:00011248       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGPBXPBXG@Z 00453248     msvcprtd:vector_algorithms.obj
+ 0002:00011270       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGPBXPBXI@Z 00453270     msvcprtd:vector_algorithms.obj
+ 0002:00011298       __ehfuncinfo$??$__std_find_trivial_unsized@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGPBXPBX_K@Z 00453298     msvcprtd:vector_algorithms.obj
+ 0002:000112c0       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGPBXPBX0E@Z 004532c0     msvcprtd:vector_algorithms.obj
+ 0002:000112e8       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGPBXPBX0G@Z 004532e8     msvcprtd:vector_algorithms.obj
+ 0002:00011310       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGPBXPBX0I@Z 00453310     msvcprtd:vector_algorithms.obj
+ 0002:00011338       __ehfuncinfo$??$__std_find_trivial@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGPBXPBX0_K@Z 00453338     msvcprtd:vector_algorithms.obj
+ 0002:00011360       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_1@?A0x8417fefe@@E@?A0x8417fefe@@YGIPBXQBXE@Z 00453360     msvcprtd:vector_algorithms.obj
+ 0002:00011388       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_2@?A0x8417fefe@@G@?A0x8417fefe@@YGIPBXQBXG@Z 00453388     msvcprtd:vector_algorithms.obj
+ 0002:000113b0       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_4@?A0x8417fefe@@I@?A0x8417fefe@@YGIPBXQBXI@Z 004533b0     msvcprtd:vector_algorithms.obj
+ 0002:000113d8       __ehfuncinfo$??$__std_count_trivial@U_Find_traits_8@?A0x8417fefe@@_K@?A0x8417fefe@@YGIPBXQBX_K@Z 004533d8     msvcprtd:vector_algorithms.obj
+ 0002:00011400       __sehtable$?__scrt_common_main_seh@@YAHXZ 00453400     MSVCRTD:exe_main.obj
+ 0002:00011420       __sehtable$___scrt_is_nonwritable_in_current_image 00453420     MSVCRTD:utility.obj
  0003:00000000       ?firstClick@?1??handleEvent@BaseEngine@@QAE_NPATSDL_Event@@@Z@4_NA 00454000     BaseEngine.obj
  0003:00000004       ?nullMapping@@3VCroppedImagePixelMapping@@A 00454004     SimpleImage.obj
  0003:00000c4c       ?_Fac_head@std@@3PAU_Fac_node@1@A 00454c4c     msvcprtd:locale0_implib.obj

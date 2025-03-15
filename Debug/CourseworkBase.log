@@ -1,2 +1,41 @@
-﻿  Attack.cpp
-  CourseworkBase.vcxproj -> C:\Users\danie\OneDrive\Documents\CW2\CPPCoursework2021-v102\Debug\CourseworkBase2020.exe
+﻿  Arrow.cpp
+  CircuitTiles.cpp
+  DraggingDemo.cpp
+  DrawingSurface.cpp
+  Enemy.cpp
+  FlashingDemo.cpp
+  GameObject.cpp
+  ImageMappingDemo.cpp
+  MST.cpp
+  NumberTiles.cpp
+  ImageTracking.cpp
+  LoseState.cpp
+  mainfunction.cpp
+  BaseEngine.cpp
+  DisplayableObject.cpp
+  FontManager.cpp
+  PauseSymbol.cpp
+  Player.cpp
+  Psydp3Engine.cpp
+  Attack.cpp
+  Generating Code...
+  Compiling...
+  RunningState.cpp
+  ScrollPoints.cpp
+  SimpleImage.cpp
+  SimpleDemo.cpp
+  Slider.cpp
+  StarfieldDemo.cpp
+  StartupState.cpp
+  State.cpp
+  TileManager.cpp
+  BouncingBall.cpp
+  BouncingBallMain.cpp
+  MazeDemoMain.cpp
+  MazeDemoObject.cpp
+  MazeDemoTileManager.cpp
+  WinState.cpp
+  ZoomingDemo.cpp
+  ZoomPoints.cpp
+  Generating Code...
+  CourseworkBase.vcxproj -> C:\Users\danie\OneDrive\Documents\CW2\2DScrollingGame\Debug\CourseworkBase2020.exe
